@@ -1,9 +1,9 @@
 name: Node CI
 on:
   push:
-    branches: [ main ]
+    branches: [ gha_node ]
   pull_request:
-    branches: [ main ]
+    branches: [ gha_node ]
 
 jobs:
   ci:
